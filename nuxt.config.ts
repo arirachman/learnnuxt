@@ -11,8 +11,8 @@ export default defineNuxtConfig({
   //add pwa manifest
   pwa: {
     manifest: {
-      name: "tokosneaker",
-      short_name: "toko sneaker",
+      name: "Carbix",
+      short_name: "Carbix",
       theme_color: "#fff",
       background_color: "#fff",
       display: "standalone",
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       start_url: "/",
       icons: [
         {
-          src: "sneakers.png",
+          src: "carbon.png",
           sizes: "512x512",
           type: "image/png"
         },

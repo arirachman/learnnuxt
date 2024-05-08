@@ -3,6 +3,8 @@ import { VitePwaManifest } from '#build/components';
 <template>
   <div>
     <VitePwaManifest/>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
