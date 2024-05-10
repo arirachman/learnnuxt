@@ -1,7 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  //add remixicon
+  app: {
+    head: {
+      link: [
+        { rel: "stylesheet", href: 
+          "https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+        }
+      ]
+    }
+  },
   devtools: { enabled: true },
-  //add new model
+  //add new modul
   modules: ["@nuxtjs/tailwindcss", '@vite-pwa/nuxt'],
   
   tailwindcss: {
